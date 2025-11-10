@@ -1,0 +1,213 @@
+{
+  "metadata": {
+    "data_source": "IUCN 2025 Red List of Threatened Species. Version 2025-2 <www.iucnredlist.org>",
+    "iucn_red_list_version": "2025-2",
+    "iucn_api_version": "v4",
+    "iucn_api_base_url": "https://api.iucnredlist.org/api/v4/",
+    "generated_at": "2025-11-09T11:42:56.334Z",
+    "generated_by": "lance@gmx.org"
+  },
+  "counts_per_category": [
+    {
+      "iucn_category_version": "3.1",
+      "iucn_category_code": "EX",
+      "iucn_category_description": "Extinct",
+      "iucn_description_version": "3.1",
+      "iucn_header_data": {
+        "date": "Sun, 09 Nov 2025 11:42:54 GMT",
+        "total_count": 935,
+        "total_pages": 10,
+        "link": "<https://api.iucnredlist.org/api/v4/red_list_categories/EX?latest=true&scope_code=1&page=1&per_page=100>; rel=\"first\", <https://api.iucnredlist.org/api/v4/red_list_categories/EX?latest=true&scope_code=1&page=2&per_page=100>; rel=\"next\", <https://api.iucnredlist.org/api/v4/red_list_categories/EX?latest=true&scope_code=1&page=10&per_page=100>; rel=\"last\""
+      }
+    },
+    {
+      "iucn_category_version": "3.1",
+      "iucn_category_code": "EW",
+      "iucn_category_description": "Extinct in the Wild",
+      "iucn_description_version": "3.1",
+      "iucn_header_data": {
+        "date": "Sun, 09 Nov 2025 11:42:53 GMT",
+        "total_count": 81,
+        "total_pages": 1,
+        "link": "<https://api.iucnredlist.org/api/v4/red_list_categories/EW?latest=true&scope_code=1&page=1&per_page=100>; rel=\"first\", <https://api.iucnredlist.org/api/v4/red_list_categories/EW?latest=true&scope_code=1&page=1&per_page=100>; rel=\"last\""
+      }
+    },
+    {
+      "iucn_category_version": "3.1",
+      "iucn_category_code": "RE",
+      "iucn_category_description": "Regionally Extinct",
+      "iucn_description_version": "3.1",
+      "iucn_header_data": {
+        "date": "Sun, 09 Nov 2025 11:42:55 GMT",
+        "total_count": 0,
+        "total_pages": 1,
+        "link": "<https://api.iucnredlist.org/api/v4/red_list_categories/RE?latest=true&scope_code=1&page=1&per_page=100>; rel=\"first\", <https://api.iucnredlist.org/api/v4/red_list_categories/RE?latest=true&scope_code=1&page=1&per_page=100>; rel=\"last\""
+      }
+    },
+    {
+      "iucn_category_version": "3.1",
+      "iucn_category_code": "CR",
+      "iucn_category_description": "Critically Endangered",
+      "iucn_description_version": "3.1",
+      "iucn_header_data": {
+        "date": "Sun, 09 Nov 2025 11:42:53 GMT",
+        "total_count": 10774,
+        "total_pages": 108,
+        "link": "<https://api.iucnredlist.org/api/v4/red_list_categories/CR?latest=true&scope_code=1&page=1&per_page=100>; rel=\"first\", <https://api.iucnredlist.org/api/v4/red_list_categories/CR?latest=true&scope_code=1&page=2&per_page=100>; rel=\"next\", <https://api.iucnredlist.org/api/v4/red_list_categories/CR?latest=true&scope_code=1&page=108&per_page=100>; rel=\"last\""
+      }
+    },
+    {
+      "iucn_category_version": "3.1",
+      "iucn_category_code": "EN",
+      "iucn_category_description": "Endangered",
+      "iucn_description_version": "3.1",
+      "iucn_header_data": {
+        "date": "Sun, 09 Nov 2025 11:42:54 GMT",
+        "total_count": 19873,
+        "total_pages": 199,
+        "link": "<https://api.iucnredlist.org/api/v4/red_list_categories/EN?latest=true&scope_code=1&page=1&per_page=100>; rel=\"first\", <https://api.iucnredlist.org/api/v4/red_list_categories/EN?latest=true&scope_code=1&page=2&per_page=100>; rel=\"next\", <https://api.iucnredlist.org/api/v4/red_list_categories/EN?latest=true&scope_code=1&page=199&per_page=100>; rel=\"last\""
+      }
+    },
+    {
+      "iucn_category_version": "3.1",
+      "iucn_category_code": "VU",
+      "iucn_category_description": "Vulnerable",
+      "iucn_description_version": "3.1",
+      "iucn_header_data": {
+        "date": "Sun, 09 Nov 2025 11:42:55 GMT",
+        "total_count": 17999,
+        "total_pages": 180,
+        "link": "<https://api.iucnredlist.org/api/v4/red_list_categories/VU?latest=true&scope_code=1&page=1&per_page=100>; rel=\"first\", <https://api.iucnredlist.org/api/v4/red_list_categories/VU?latest=true&scope_code=1&page=2&per_page=100>; rel=\"next\", <https://api.iucnredlist.org/api/v4/red_list_categories/VU?latest=true&scope_code=1&page=180&per_page=100>; rel=\"last\""
+      }
+    },
+    {
+      "iucn_category_version": "3.1",
+      "iucn_category_code": "LR/cd",
+      "iucn_category_description": "Lower Risk/conservation dependent",
+      "iucn_description_version": "2.3",
+      "iucn_header_data": {
+        "date": "Sun, 09 Nov 2025 11:42:56 GMT",
+        "total_count": 121,
+        "total_pages": 2,
+        "link": "<https://api.iucnredlist.org/api/v4/red_list_categories/LR%2Fcd?latest=true&scope_code=1&page=1&per_page=100>; rel=\"first\", <https://api.iucnredlist.org/api/v4/red_list_categories/LR%2Fcd?latest=true&scope_code=1&page=2&per_page=100>; rel=\"next\", <https://api.iucnredlist.org/api/v4/red_list_categories/LR%2Fcd?latest=true&scope_code=1&page=2&per_page=100>; rel=\"last\""
+      }
+    },
+    {
+      "iucn_category_version": "3.1",
+      "iucn_category_code": "NT",
+      "iucn_category_description": "Near Threatened",
+      "iucn_description_version": "3.1",
+      "iucn_header_data": {
+        "date": "Sun, 09 Nov 2025 11:42:55 GMT",
+        "total_count": 9825,
+        "total_pages": 99,
+        "link": "<https://api.iucnredlist.org/api/v4/red_list_categories/NT?latest=true&scope_code=1&page=1&per_page=100>; rel=\"first\", <https://api.iucnredlist.org/api/v4/red_list_categories/NT?latest=true&scope_code=1&page=2&per_page=100>; rel=\"next\", <https://api.iucnredlist.org/api/v4/red_list_categories/NT?latest=true&scope_code=1&page=99&per_page=100>; rel=\"last\""
+      }
+    },
+    {
+      "iucn_category_version": "3.1",
+      "iucn_category_code": "LR/nt",
+      "iucn_category_description": "Lower Risk/near threatened",
+      "iucn_description_version": "2.3",
+      "iucn_header_data": {
+        "date": "Sun, 09 Nov 2025 11:42:55 GMT",
+        "total_count": 455,
+        "total_pages": 5,
+        "link": "<https://api.iucnredlist.org/api/v4/red_list_categories/LR%2Fnt?latest=true&scope_code=1&page=1&per_page=100>; rel=\"first\", <https://api.iucnredlist.org/api/v4/red_list_categories/LR%2Fnt?latest=true&scope_code=1&page=2&per_page=100>; rel=\"next\", <https://api.iucnredlist.org/api/v4/red_list_categories/LR%2Fnt?latest=true&scope_code=1&page=5&per_page=100>; rel=\"last\""
+      }
+    },
+    {
+      "iucn_category_version": "3.1",
+      "iucn_category_code": "LC",
+      "iucn_category_description": "Least Concern",
+      "iucn_description_version": "3.1",
+      "iucn_header_data": {
+        "date": "Sun, 09 Nov 2025 11:42:55 GMT",
+        "total_count": 89628,
+        "total_pages": 897,
+        "link": "<https://api.iucnredlist.org/api/v4/red_list_categories/LC?latest=true&scope_code=1&page=1&per_page=100>; rel=\"first\", <https://api.iucnredlist.org/api/v4/red_list_categories/LC?latest=true&scope_code=1&page=2&per_page=100>; rel=\"next\", <https://api.iucnredlist.org/api/v4/red_list_categories/LC?latest=true&scope_code=1&page=897&per_page=100>; rel=\"last\""
+      }
+    },
+    {
+      "iucn_category_version": "3.1",
+      "iucn_category_code": "LR/lc",
+      "iucn_category_description": "Lower Risk/least concern",
+      "iucn_description_version": "2.3",
+      "iucn_header_data": {
+        "date": "Sun, 09 Nov 2025 11:42:55 GMT",
+        "total_count": 169,
+        "total_pages": 2,
+        "link": "<https://api.iucnredlist.org/api/v4/red_list_categories/LR%2Flc?latest=true&scope_code=1&page=1&per_page=100>; rel=\"first\", <https://api.iucnredlist.org/api/v4/red_list_categories/LR%2Flc?latest=true&scope_code=1&page=2&per_page=100>; rel=\"next\", <https://api.iucnredlist.org/api/v4/red_list_categories/LR%2Flc?latest=true&scope_code=1&page=2&per_page=100>; rel=\"last\""
+      }
+    },
+    {
+      "iucn_category_version": "3.1",
+      "iucn_category_code": "DD",
+      "iucn_category_description": "Data Deficient",
+      "iucn_description_version": "3.1",
+      "iucn_header_data": {
+        "date": "Sun, 09 Nov 2025 11:42:53 GMT",
+        "total_count": 22760,
+        "total_pages": 228,
+        "link": "<https://api.iucnredlist.org/api/v4/red_list_categories/DD?latest=true&scope_code=1&page=1&per_page=100>; rel=\"first\", <https://api.iucnredlist.org/api/v4/red_list_categories/DD?latest=true&scope_code=1&page=2&per_page=100>; rel=\"next\", <https://api.iucnredlist.org/api/v4/red_list_categories/DD?latest=true&scope_code=1&page=228&per_page=100>; rel=\"last\""
+      }
+    },
+    {
+      "iucn_category_version": "3.1",
+      "iucn_category_code": "NA",
+      "iucn_category_description": "Not Applicable",
+      "iucn_description_version": "3.1",
+      "iucn_header_data": {
+        "date": "Sun, 09 Nov 2025 11:42:55 GMT",
+        "total_count": 0,
+        "total_pages": 1,
+        "link": "<https://api.iucnredlist.org/api/v4/red_list_categories/NA?latest=true&scope_code=1&page=1&per_page=100>; rel=\"first\", <https://api.iucnredlist.org/api/v4/red_list_categories/NA?latest=true&scope_code=1&page=1&per_page=100>; rel=\"last\""
+      }
+    },
+    {
+      "iucn_category_version": "3.1",
+      "iucn_category_code": "N/A",
+      "iucn_category_description": "Unknown",
+      "iucn_description_version": "Earlier Version",
+      "iucn_header_data": {
+        "date": "Sun, 09 Nov 2025 11:42:55 GMT",
+        "total_count": 0,
+        "total_pages": 1,
+        "link": "<https://api.iucnredlist.org/api/v4/red_list_categories/N%2FA?latest=true&scope_code=1&page=1&per_page=100>; rel=\"first\", <https://api.iucnredlist.org/api/v4/red_list_categories/N%2FA?latest=true&scope_code=1&page=1&per_page=100>; rel=\"last\""
+      }
+    },
+    {
+      "iucn_category_version": "3.1",
+      "iucn_category_code": "NE",
+      "iucn_category_description": "Not Evaluated",
+      "iucn_description_version": "3.1",
+      "iucn_header_data": {
+        "date": "Sun, 09 Nov 2025 11:42:54 GMT",
+        "total_count": 0,
+        "total_pages": 1,
+        "link": "<https://api.iucnredlist.org/api/v4/red_list_categories/NE?latest=true&scope_code=1&page=1&per_page=100>; rel=\"first\", <https://api.iucnredlist.org/api/v4/red_list_categories/NE?latest=true&scope_code=1&page=1&per_page=100>; rel=\"last\""
+      }
+    },
+    {
+      "iucn_category_version": "3.1",
+      "iucn_category_code": "NR",
+      "iucn_category_description": "Not Recognized",
+      "iucn_description_version": "3.1",
+      "iucn_header_data": {
+        "date": "Sun, 09 Nov 2025 11:42:55 GMT",
+        "total_count": 0,
+        "total_pages": 1,
+        "link": "<https://api.iucnredlist.org/api/v4/red_list_categories/NR?latest=true&scope_code=1&page=1&per_page=100>; rel=\"first\", <https://api.iucnredlist.org/api/v4/red_list_categories/NR?latest=true&scope_code=1&page=1&per_page=100>; rel=\"last\""
+      }
+    }
+  ],
+  "summary": {
+    "my_total_count": 172620,
+    "iucn_statistics_count": 172620,
+    "validation": {
+      "description": "Comparison: my_total_count vs iucn_statistics_count",
+      "total_count_match": true
+    },
+    "category_count": 16
+  }
+}
