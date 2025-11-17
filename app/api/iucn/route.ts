@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+
 import iucnData from '../../../src/data/iucn-data.json';
 
 export async function GET() {
