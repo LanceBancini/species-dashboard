@@ -19,7 +19,7 @@ export default function ThemeButton({ onThemeSelect, currentTheme }: ThemeButton
         <>
           <PopoverButton className={popoverStyles.button}>Theme</PopoverButton>
 
-          <PopoverPanel anchor='bottom end' transition className={`${popoverStyles.panel} transform origin-top opacity-90`}>
+          <PopoverPanel anchor='bottom end' transition className={`${popoverStyles.panel} transform origin-top `}>
             {themes.map((theme) => (
               <button
                 key={theme.name}

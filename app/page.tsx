@@ -8,6 +8,8 @@ import ThemeButton from './components/ThemeButton';
 import { ThemeConfig } from './config/themes';
 import { getDefaultTheme, getThemeByName } from './config/theme-loader';
 
+import SequentialIcons from './test/components/SequentialIcons';
+
 export default function Home() {
   interface IUCNApiResponse {
     summary: {
@@ -23,7 +25,7 @@ export default function Home() {
       generated_at: string;
     };
   }
-
+  console.log('🎯 Page geladen...');
   const [data, setData] = useState<IUCNApiResponse | null>(null);
   const [currentTheme, setCurrentTheme] = useState<ThemeConfig>(getDefaultTheme());
   const [isLoading, setIsLoading] = useState(true);
@@ -77,16 +79,29 @@ export default function Home() {
   const delayBetweenCategories = 400;
   const totalAnimationTime = (totalCategories - 1) * delayBetweenCategories + categoryAnimationDuration;
 
+  // Date
+  const options: Intl.DateTimeFormatOptions = { weekday: 'long', year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric' };
+
   return (
     <div className={`min-h-screen p-8  ${currentTheme.transitions.page} ${currentTheme.page.bgColour} ${currentTheme.page.textColour} `}>
       {/* Header */}
-
       <header className='mb-8 flex justify-between items-center'>
-        <div>
-          <h1 className='text-3xl font-bold font-sans'>
-            Threatened Species<span className='text-lg opacity-70'> | Dashboard...</span>
-          </h1>
-        </div>
+        <h1 className='text-3xl font-bold font-sans justify-center'>
+          <span className={`float-left flex  items-center justify-center  mr-3 rounded-full  ${currentTheme.transitions.element}  ${currentTheme.animatedIconButton.background} animate-pulse-scale`}>
+            <SequentialIcons
+              icons={['bell-electric', 'cat', 'bird', 'vegan', 'dog', 'squirrel', 'bug', 'paw-print', 'rabbit', 'worm', 'clover', 'fish', 'sprout', 'leaf', 'panda', 'clover', 'snail', 'turtle']} // Kein TypeScript-Fehler mehr
+              interval={4000}
+              fadeDuration={1000}
+              strokeWidth={1.9}
+              size={34}
+              className={currentTheme.animatedIconButton.iconColor}
+            />
+          </span>
+          <span className={`self-center grid ${currentTheme.headers.header}`}>
+            Species
+            <span className={`self-center grid ${currentTheme.headers.subheader}`}>Dashboard...</span>
+          </span>
+        </h1>
         <ThemeButton onThemeSelect={handleThemeSelect} currentTheme={currentTheme} />
       </header>
 
@@ -95,10 +110,10 @@ export default function Home() {
         <h2 className={`text-xl font-semibold mb-4 text-center opacity-80 ${currentTheme.summary.textColour} ${currentTheme.transitions.element}`}>Summary</h2>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-4 font-sans'>
           <div className='text-center'>
-            <p className={`text-6xl font-bold animate-pulse ${currentTheme.animatedCounter.primary} ${currentTheme.transitions.element}`}>
+            <p className={`text-6xl font-bold ${currentTheme.animatedCounter.primary} ${currentTheme.transitions.element}`}>
               <AnimatedCounter value={data.summary.my_total_count} duration={totalAnimationTime} />
             </p>
-            <p className={`opacity-70 ${currentTheme.summary.textColour} ${currentTheme.transitions.element}`}>Threatened Species Total</p>
+            <p className={`opacity-70 ${currentTheme.summary.textColour} ${currentTheme.transitions.element}`}>Species Total</p>
           </div>
           <div className='text-center'>
             <p className={`text-2xl font-bold ${currentTheme.transitions.element} ${currentTheme.animatedCounter.accent}`}>{data.counts_per_category.filter((c: SpeciesCount) => c.iucn_header_data.total_count > 0).length}</p>
@@ -135,7 +150,7 @@ export default function Home() {
         <p className='text-xs opacity-30'>Data source:</p>
         <p className='text-sm opacity-80 text-neutral-200'>{data.metadata.data_source}</p>
         <span className='text-xs opacity-30 text-neutral-300'>Generated:</span>
-        <p className='text-xs opacity-60'>{new Date(data.metadata.generated_at).toLocaleString('de-DE')}</p>
+        <p className='text-xs opacity-60'>{new Date(data.metadata.generated_at).toLocaleString('en-GB', options)}</p>
         <p className='text-xs opacity-30 mt-2'>Current Theme: {currentTheme.name}</p>
       </footer>
     </div>

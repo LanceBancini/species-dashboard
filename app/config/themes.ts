@@ -5,6 +5,14 @@ export interface ThemeConfig {
     element: string;
     hover: string;
   };
+  headers: {
+    header: string;
+    subheader: string;
+  };
+  animatedIconButton: {
+    background: string;
+    iconColor: string;
+  };
   page: {
     bgColour: string;
     textColour: string;
@@ -31,25 +39,34 @@ export const popoverStyles = {
     'shadow-md shadow-stone-900/50 cursor-pointer text-stone-400 hover:text-stone-300 px-5 py-2 px-5 bg-stone-800 border border-stone-400 rounded-xl shadow-xl hover:bg-stone-600 hover:border-stone-400 data-[active]:bg-stone-950 transition-all duration-300 focus:ring-stone-200 p-5 ',
   //   panel: ' w-60 absolute grid mt-2 bg-slate-100/90 shadow-xl rounded-xl border border-stone-300 p-2 origin-top-right transition-all duration-500 data-[closed]:scale-95 data-[closed]:opacity-0 data-[open]:scale-100 data-[open]:opacity-100 ',
   panel:
-    ' shadow-xl  shadow-stone-900/90 w-60 grid mt-4 bg-stone-950/90 shadow-xl rounded-xl border border-stone-500 p-5 transform transition-all duration-500 ease-out origin-top-right data-[closed]:scale-20 data-[closed]:opacity-0 starting:open:opacity-0   starting:open:scale-0 ',
+    ' shadow-xl  shadow-stone-950/90 w-60 grid mt-4 bg-stone-900/95 shadow-xl rounded-xl border border-stone-500 p-5 transform transition-all duration-500 ease-out origin-top-right data-[closed]:scale-20 data-[closed]:opacity-0 starting:open:opacity-0   starting:open:scale-0 ',
   // listItem: 'my-1 text-left  px-4 p-4 hover:bg-stone-700/50 hover:text-red-200 rounded-lg data-[focus]:text-stone-200'
   // ✅ Normales List-Item
-  listItem: 'text-left  cursor-pointer px-2 p-2 my-3  rounded-lg ring-1 ring-stone-200/50 transition-all duration-200 text-stone-400 bg-stone-700/80 hover:bg-stone-950/90 hover:text-stone-500 hover:font-bold',
+  listItem: 'text-left  cursor-pointer px-2 p-2 my-3  rounded-lg ring-1 ring-stone-200/70 transition-all duration-200 text-stone-400 bg-stone-700/20 hover:bg-stone-950/90 hover:text-stone-500 hover:font-bold',
 
   // ✅ Aktives List-Item
-  activeListItem: 'text-left px-2 p-2 my-3 rounded-lg ring-2 ring-stone-200/30 transition-all duration-200 text-stone-900 bg-stone-400 font-bold'
+  activeListItem: 'text-left px-2 p-2 my-3 rounded-lg ring-2 ring-stone-700/90 transition-all duration-200 text-stone-900 bg-stone-400 font-bold'
 };
 
 export const themes: ThemeConfig[] = [
   {
     name: 'Moon',
+    animatedIconButton: {
+      background:
+        'transition-colors duration-1000 ease-in-out rounded-full  ring-3 ring-stone-500/30 ring:m-3 w-15 h-15 bg-radial-[at_22%_15%] from-stone-300 from-10%  via-stone-900 via-80% to-zinc-950 to-90% inset-shadow-sm inset-shadow-zinc-950 shadow-md shadow-zinc-950',
+      iconColor: 'transition-colors duration-1000 ease-in-out  text-neutral-100'
+    },
+    headers: {
+      header: 'text-3xl text-neutral-200  max-[400px]:text-lg ',
+      subheader: 'text-sm  text-neutral-400 '
+    },
     transitions: {
       page: 'transition-colors duration-1000 ease-in-out',
       element: 'transition-all duration-1000 ease-in-out',
       hover: 'transition-all duration-200 hover:ease-in-out hover:scale-105 hover:shadow-xl  hover:shadow-stone-900/50'
     },
     page: {
-      bgColour: 'bg-linear-45 from-stone-950 to-stone-600',
+      bgColour: 'bg-linear-90 from-stone-950 to-stone-600',
       textColour: 'text-stone-500'
     },
     summary: {
@@ -69,13 +86,22 @@ export const themes: ThemeConfig[] = [
   },
   {
     name: 'Sunset',
+    animatedIconButton: {
+      background:
+        'transition-colors duration-1000 ease-in-out rounded-full  ring-3 ring-stone-500/30 ring:m-3 w-15 h-15 bg-radial-[at_22%_15%] from-amber-300 from-10%  via-amber-900 via-80% to-zinc-950 to-90% inset-shadow-sm inset-shadow-zinc-950 shadow-md shadow-zinc-950',
+      iconColor: 'transition-colors duration-1000 ease-in-out  text-neutral-100'
+    },
+    headers: {
+      header: 'text-3xl text-neutral-200 max-[400px]:text-lg ',
+      subheader: 'text-sm  text-neutral-400 '
+    },
     transitions: {
       page: 'transition-colors duration-1000 ease-in-out',
       element: 'transition-all duration-1000 ease-in-out',
       hover: 'transition-all duration-200 ease-in-out hover:scale-105 hover:shadow-xl  hover:shadow-stone-900/50'
     },
     page: {
-      bgColour: ' bg-linear-45 from-amber-950 to-amber-300',
+      bgColour: ' bg-linear-90 from-amber-950 to-amber-300',
       textColour: 'text-neutral-300'
     },
     summary: {
@@ -90,18 +116,27 @@ export const themes: ThemeConfig[] = [
     animatedCounter: {
       primary: 'text-neutral-200 text-shadow-lg/50',
       secondary: 'text-amber-400',
-      accent: 'text-teal-900'
+      accent: 'text-teal-800'
     }
   },
   {
     name: 'Ocean',
+    animatedIconButton: {
+      background:
+        'transition-colors duration-1000 ease-in-out rounded-full  ring-3 ring-stone-500/30 ring:m-3 w-15 h-15 bg-radial-[at_22%_15%] from-blue-300 from-10%  via-blue-900 via-80% to-zinc-950 to-90% inset-shadow-sm inset-shadow-zinc-950 shadow-md shadow-zinc-950',
+      iconColor: ' transition-colors duration-1000 ease-in-out text-neutral-100'
+    },
+    headers: {
+      header: 'text-3xl text-neutral-200  max-[400px]:text-lg  ',
+      subheader: 'text-sm  text-neutral-400 '
+    },
     transitions: {
       page: 'transition-colors duration-1000 ease-in-out',
       element: 'transition-all duration-1000 ease-in-out',
       hover: 'transition-all duration-200 ease-in-out hover:scale-105 hover:shadow-xl  hover:shadow-stone-900/50'
     },
     page: {
-      bgColour: ' bg-linear-45 from-zinc-950 to-blue-600',
+      bgColour: ' bg-linear-90 from-zinc-950 to-blue-600',
       textColour: 'text-blue-200'
     },
     summary: {
