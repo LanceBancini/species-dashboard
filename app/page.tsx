@@ -150,8 +150,8 @@ export default function Home() {
         <p className='text-xs opacity-30'>Data source:</p>
         <p className='text-sm opacity-80 text-neutral-200'>{data.metadata.data_source}</p>
         <span className='text-xs opacity-30 text-neutral-300'>Generated:</span>
-        <p className='text-xs opacity-60'>{new Date(data.metadata.generated_at).toLocaleString('en-GB', options)}</p>
-        <p className='text-xs opacity-30 mt-2'>Current Theme: {currentTheme.name}</p>
+        <p className='text-xs '>{new Date(data.metadata.generated_at).toLocaleString('en-GB', options)} · Awareness Engine v0.0.1</p>
+        <p className='text-xs mt-2'>Current Theme: {currentTheme.name}</p>
       </footer>
     </div>
   );
