@@ -5,7 +5,7 @@
     "iucn_api_version": "v4",
     "iucn_api_base_url": "https://api.iucnredlist.org/api/v4/",
     "generated_at": "2026-04-22T11:58:29.321Z",
-    "generated_by": "lance@gmx.org"
+    "generated_by": "Awareness Engine v0.0.1"
   },
   "counts_per_category": [
     {
