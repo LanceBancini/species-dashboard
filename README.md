@@ -2,15 +2,15 @@
 
 **What if every one of the 172,620 species on the IUCN Red List had a voice?**
 
-> *Data becomes story. Story becomes empathy. Empathy becomes action.*
+> _Data becomes story. Story becomes empathy. Empathy becomes action._
 
 The IUCN Red List documents 172,620 species. Most of them will go extinct unnoticed — not because nobody cares, but because nobody told their story.
 
 **The goal: a global campaign for every species — social media, print, education — for all 172,620. Not just the pandas. The Kids & Youth template is the proof that the translation works. Everything else is what we build together.**
 
-> *"The Awareness Engine is a working proof of concept — and the foundation of what could become a decentralised communication infrastructure for global conservation."*
+> _"The Awareness Engine is a working proof of concept — and the foundation of what could become a decentralised communication infrastructure for global conservation."_
 
-> *"Small enough to be a prototype. Large enough to be an infrastructure."*
+> _"Small enough to be a prototype. Large enough to be an infrastructure."_
 
 ---
 
@@ -43,9 +43,9 @@ Awareness Engine Backend
 
 The IUCN API provides only a total species count via its `/statistics` endpoint. Generating the full validated category breakdown required:
 
-* Navigating undocumented API structures across multiple endpoints
-* Developing custom filtering logic to retain only the most recent version per category — preventing double-counting across versioned data
-* Aggregating all results and validating the sum against the official statistics endpoint
+- Navigating undocumented API structures across multiple endpoints
+- Developing custom filtering logic to retain only the most recent version per category — preventing double-counting across versioned data
+- Aggregating all results and validating the sum against the official statistics endpoint
 
 **What looks like a simple table represents days of API exploration. The ✓ Match confirmation is the proof.**
 
@@ -79,16 +79,16 @@ Global Data Endpoint
                  Build something that matters."
 ```
 
-> *"This is not a promise. The data infrastructure exists today — as a proof of concept. The vision is what becomes possible when the right community builds on it."*
+> _"This is not a promise. The data infrastructure exists today — as a proof of concept. The vision is what becomes possible when the right community builds on it."_
 
 ---
 
 ## 📊 Strategic Features
 
-* **Global Scale Visualization:** Immediate overview of **172,620+ assessed species**
-* **Category Mapping:** All IUCN categories from *Extinct* to *Least Concern*
-* **Quantified Insight:** Species per threat level — including **22,760 Data Deficient** species that currently have no public voice
-* **Validation Confirmation:** ✓ Match confirms snapshot data aligns with official IUCN statistics — scientific integrity made visible
+- **Global Scale Visualization:** Immediate overview of **172,620+ assessed species**
+- **Category Mapping:** All IUCN categories from _Extinct_ to _Least Concern_
+- **Quantified Insight:** Species per threat level — including **22,760 Data Deficient** species that currently have no public voice
+- **Validation Confirmation:** ✓ Match confirms snapshot data aligns with official IUCN statistics — scientific integrity made visible
 
 ---
 
@@ -188,11 +188,12 @@ The dashboard manages the **"What"** (verified facts at scale).
 The Awareness Engine generates the **"Why"** (the emotional narrative per species).
 
 By harnessing information technology for conservation, the Engine creates tailored content for:
-* **Nature-based Education** (Schools & Youth)
-* **SBCC** (Social & Behavioural Change Communication)
-* **#NatureForAll Campaigns**
-* **Reimagining Conservation Communications**
-* **Citizen and Community Science** (open data for developers)
+
+- **Nature-based Education** (Schools & Youth)
+- **SBCC** (Social & Behavioural Change Communication)
+- **#NatureForAll Campaigns**
+- **Reimagining Conservation Communications**
+- **Citizen and Community Science** (open data for developers)
 
 The Awareness Engine is intended to be developed **for and with IUCN** — not as a product, but as a partnership. The data is theirs. The mission is shared. The tool belongs in their hands first.
 
@@ -202,75 +203,76 @@ The engine handles the first step. The rest is human.
 
 ## 🌱 Sample Outputs
 
-*Three species, three stories, one mission. The Awareness Engine generates a story for any of the 172,620+ assessed species in in about a minute:*
+_Three species, three stories, one mission. The Awareness Engine generates a story for any of the 172,620+ assessed species in in about a minute:_
 
-* 🌿 **Fauna & Flora** — Animals and plants, from mountain forests to ocean depths
-* 📉📈 **Tragedy & Hope** — Declining populations and conservation success stories
-* 🔬❤️ **Science & Emotion** — API facts translated into child-friendly language
+- 🌿 **Fauna & Flora** — Animals and plants, from mountain forests to ocean depths
+- 📉📈 **Tragedy & Hope** — Declining populations and conservation success stories
+- 🔬❤️ **Science & Emotion** — API facts translated into child-friendly language
 
 ---
 
 ### 🌿 Sample 1 — Little Shimmer | Flora · Hope
-*This is the species that started everything.*
 
-| | |
-|---|---|
-| **Species** | Phyllanthus revaughanii |
-| **Common name** | Little Shimmer |
-| **Status** | Critically Endangered |
-| **Trend** | Increasing ↑ |
-| **Country** | Mauritius |
-| **Template** | Kids & Youth |
-| **Generated** | about a minute |
-| **Editorial** | Pending human review |
+_This is the species that started everything._
 
-> *"Little Shimmer, the tiny Phyllanthus revaughanii plant with its delicate, glistening leaves, is so small it almost disappears into the moss — and lives only on the beautiful island of Mauritius in the Indian Ocean. As a member of the Phyllanthus family, it is a truly special plant that grows in the last remaining moist mountain forests of its homeland. Little Shimmer feeds by drawing nutrients and water from the soil through its roots and capturing sunlight with its leaves. It helps hold the forest floor together and provides shelter for tiny creatures, making it an important building block of its fragile home. Sadly, its habitat is very small and threatened by invasive plants, placing it among the most endangered plants in the world. But there is hopeful news: thanks to the care of conservationists who protect its forest and raise new seedlings, its numbers are fortunately growing. Together, we can ensure that its delicate shimmer continues to glisten in the mountain forests for a long time to come."*
+|                 |                         |
+| --------------- | ----------------------- |
+| **Species**     | Phyllanthus revaughanii |
+| **Common name** | Little Shimmer          |
+| **Status**      | Critically Endangered   |
+| **Trend**       | Increasing ↑            |
+| **Country**     | Mauritius               |
+| **Template**    | Kids & Youth            |
+| **Generated**   | about a minute          |
+| **Editorial**   | Pending human review    |
+
+> _"Little Shimmer, the tiny Phyllanthus revaughanii plant with its delicate, glistening leaves, is so small it almost disappears into the moss — and lives only on the beautiful island of Mauritius in the Indian Ocean. As a member of the Phyllanthus family, it is a truly special plant that grows in the last remaining moist mountain forests of its homeland. Little Shimmer feeds by drawing nutrients and water from the soil through its roots and capturing sunlight with its leaves. It helps hold the forest floor together and provides shelter for tiny creatures, making it an important building block of its fragile home. Sadly, its habitat is very small and threatened by invasive plants, placing it among the most endangered plants in the world. But there is hopeful news: thanks to the care of conservationists who protect its forest and raise new seedlings, its numbers are fortunately growing. Together, we can ensure that its delicate shimmer continues to glisten in the mountain forests for a long time to come."_
 
 ---
 
 ### 🦌 Sample 2 — Silverhorn | Fauna · Tragedy
 
-| | |
-|---|---|
-| **Species** | Pseudoryx nghetinhensis |
-| **Common name** | Silverhorn (Saola) |
-| **Status** | Critically Endangered |
-| **Trend** | Decreasing ↓ |
-| **Countries** | Vietnam, Laos |
-| **Template** | Kids & Youth |
-| **Generated** | about a minute |
-| **Editorial** | Pending human review |
+|                 |                         |
+| --------------- | ----------------------- |
+| **Species**     | Pseudoryx nghetinhensis |
+| **Common name** | Silverhorn (Saola)      |
+| **Status**      | Critically Endangered   |
+| **Trend**       | Decreasing ↓            |
+| **Countries**   | Vietnam, Laos           |
+| **Template**    | Kids & Youth            |
+| **Generated**   | about a minute          |
+| **Editorial**   | Pending human review    |
 
-> *"Silverhorn, the shy forest mystery with his gentle gaze and long, straight horns that glow like mysterious wands, is about the size of a deer and lives deep in the dense, green mountain rainforests of Vietnam and Laos in Asia. As a unique member of the bovine family, only recently discovered by science, he moves quietly through the undergrowth, feeding on leaves, twigs and fruits. Through his wanderings, Silverhorn creates paths for other animals and helps disperse seeds — making him an important architect and gardener of his impenetrable forest home. Sadly, his mysterious home is becoming smaller and more fragmented, and very few of his kind remain. Together, we can ensure that these mysterious creatures with their glowing horns continue to roam the last untouched forests — and that their fairy tale remains true."*
+> _"Silverhorn, the shy forest mystery with his gentle gaze and long, straight horns that glow like mysterious wands, is about the size of a deer and lives deep in the dense, green mountain rainforests of Vietnam and Laos in Asia. As a unique member of the bovine family, only recently discovered by science, he moves quietly through the undergrowth, feeding on leaves, twigs and fruits. Through his wanderings, Silverhorn creates paths for other animals and helps disperse seeds — making him an important architect and gardener of his impenetrable forest home. Sadly, his mysterious home is becoming smaller and more fragmented, and very few of his kind remain. Together, we can ensure that these mysterious creatures with their glowing horns continue to roam the last untouched forests — and that their fairy tale remains true."_
 
 ---
 
 ### 🐟 Sample 3 — Deep Eye | Science & Emotion
 
-| | |
-|---|---|
-| **Species** | Bathylychnops exilis |
+|                 |                              |
+| --------------- | ---------------------------- |
+| **Species**     | Bathylychnops exilis         |
 | **Common name** | Deep Eye (Javelin Spookfish) |
-| **Status** | Not Applicable |
-| **Trend** | Unknown |
-| **Countries** | Azores, Portugal |
-| **Template** | Kids & Youth |
-| **Generated** | about a minute |
-| **Editorial** | Pending human review |
+| **Status**      | Not Applicable               |
+| **Trend**       | Unknown                      |
+| **Countries**   | Azores, Portugal             |
+| **Template**    | Kids & Youth                 |
+| **Generated**   | about a minute               |
+| **Editorial**   | Pending human review         |
 
-> *"Deep Eye, the slender Javelin Spookfish with its enormous, luminous eyes and transparent body, is a deep-sea dweller about the length of a ruler — living in the dark depths of the Atlantic Ocean off the Azores and Portugal. As a member of the spookfish family, it has a unique body perfectly adapted for life in eternal darkness, where it hunts small crustaceans and other tiny sea creatures. By feeding on these animals, it helps maintain the balance of the deep sea, making it an important hunter in its mysterious realm. We do not yet know enough about Deep Eye's species to say whether it is endangered or not, and we do not know whether its numbers are growing or shrinking. We can help by protecting our oceans, using less plastic, and supporting scientists who explore the deep sea to learn more about its world. Together, we can preserve the dark home of this fascinating ghost of the deep."*
+> _"Deep Eye, the slender Javelin Spookfish with its enormous, luminous eyes and transparent body, is a deep-sea dweller about the length of a ruler — living in the dark depths of the Atlantic Ocean off the Azores and Portugal. As a member of the spookfish family, it has a unique body perfectly adapted for life in eternal darkness, where it hunts small crustaceans and other tiny sea creatures. By feeding on these animals, it helps maintain the balance of the deep sea, making it an important hunter in its mysterious realm. We do not yet know enough about Deep Eye's species to say whether it is endangered or not, and we do not know whether its numbers are growing or shrinking. We can help by protecting our oceans, using less plastic, and supporting scientists who explore the deep sea to learn more about its world. Together, we can preserve the dark home of this fascinating ghost of the deep."_
 
 ---
 
 ## 🛠 Tech Stack
 
-* **Frontend:** Next.js / React (deployed on Vercel)
-* **Backend:** Node.js / Express (local development)
-* **Data Source:** Official IUCN Red List API v4 — Single Source of Truth
-* **JSON Distribution:** Awareness Engine backend generates validated, human-readable thematic snapshots
-* **LLMs:** DeepSeek, Google Gemini (multi-LLM architecture — no vendor dependency)
-* **Resilience:** Decoupled JSON snapshot architecture with public validation layer
-* **Methodology:** Agile / Scrum — iterative and incremental, designed for co-creation with IUCN CEC
+- **Frontend:** Next.js / React (deployed on Vercel)
+- **Backend:** Node.js / Express (local development)
+- **Data Source:** Official IUCN Red List API v4 — Single Source of Truth
+- **JSON Distribution:** Awareness Engine backend generates validated, human-readable thematic snapshots
+- **LLMs:** DeepSeek, Google Gemini (multi-LLM architecture — no vendor dependency)
+- **Resilience:** Decoupled JSON snapshot architecture with public validation layer
+- **Methodology:** Agile / Scrum — iterative and incremental, designed for co-creation with IUCN CEC
 
 ---
 
@@ -290,22 +292,23 @@ By making every threatened species communicable at scale, the Awareness Engine s
 
 For the first time, every one of the 172,620 assessed species could have a campaign — including the 22,760 Data Deficient species that currently have no public voice at all. Not just the tigers and pandas. The ones nobody knows yet — but everybody should.
 
-> *"The Awareness Engine is a working proof of concept — and the foundation of what could become a decentralised communication infrastructure for global conservation."*
+> _"The Awareness Engine is a working proof of concept — and the foundation of what could become a decentralised communication infrastructure for global conservation."_
 
-> *"Small enough to be a prototype. Large enough to be an infrastructure."*
+> _"Small enough to be a prototype. Large enough to be an infrastructure."_
 
 I am not here to present a finished product. I am here to show what is already possible — and to find the right people to build what comes next, for and with IUCN.
 
-> *I am living proof that data becomes story, story becomes empathy, and empathy becomes action. The Awareness Engine is what that action looks like.*
+> _I am living proof that data becomes story, story becomes empathy, and empathy becomes action. The Awareness Engine is what that action looks like._
 
 ---
 
 ## 🔗 Links
 
-* **Live Dashboard:** [species-dashboard.vercel.app](https://species-dashboard.vercel.app)
-* **Global Data Endpoint:** [species-dashboard.vercel.app/api/iucn](https://species-dashboard.vercel.app/api/iucn)
-* **Developer:** Lance Bancini (Marc Isele)
-* **Official Data:** [iucnredlist.org](https://www.iucnredlist.org)
+- **Live Dashboard:** [species-dashboard.vercel.app](https://species-dashboard.vercel.app)
+- **Global Data Endpoint:** [species-dashboard.vercel.app/api/iucn](https://species-dashboard.vercel.app/api/iucn)
+- **Story Endpoint:** [species-dashboard.vercel.app/api/story/nomascus/nasutus](https://species-dashboard.vercel.app/api/story/nomascus/nasutus) — AI-generated Kids & Youth story for the Cao-vit Gibbon, based on IUCN Red List API v4 data. Pending human editorial review.
+- **Developer:** Lance Bancini (Marc Isele)
+- **Official Data:** [iucnredlist.org](https://www.iucnredlist.org)
 
 ---
 
