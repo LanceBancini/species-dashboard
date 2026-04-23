@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated": "2026-04-23T11:58:29.321Z",
+    "generated_by": "Awareness Engine v0.0.1",
+    "template": "Kids/Youth",
+    "template_version": "0.0.1",
+    "generation_duration_ms": {
+      "story_de": 58340
+    }
+  },
+  "iucn": {
+    "category_code": "CR",
+    "category_description": "Critically Endangered",
+    "trend": "Decreasing",
+    "data_source": "IUCN 2026 Red List of Threatened Species. Version 2025-2 <www.iucnredlist.org>",
+    "red_list_version": "2025-2",
+    "api_version": "v4",
+    "api_base_url": "https://api.iucnredlist.org/api/v4/",
+    "species": {
+      "genus": "Nomascus",
+      "epithet": "nasutus",
+      "common_name": "Cao-vit Gibbon",
+      "countries": [
+        "China",
+        "Viet Nam"
+      ]
+    }
+  },
+  "stories": {
+    "available": [
+      "de",
+      "en"
+    ],
+    "approval": {
+      "status": "pending human review",
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    "content": {
+      "de": "Langarm, der kleine Cao-vit Gibbon mit seinem weichen, schwarzen Fell und der markanten weißen Wange, ist etwa so groß wie ein dreijähriges Kind und lebt hoch oben in den Baumkronen der letzten Bergwälder in China und Viet Nam.\n\nAls Mitglied der Gibbonfamilie, einer der seltensten Affen der Welt, schwingt er sich mit seinen langen Armen geschickt von Ast zu Ast, wo er sich von süßen, reifen Früchten, jungen Blättern und zarten Blüten ernährt. Durch seine weiten Wanderungen auf der Suche nach Futter verteilt Langarm Samen im ganzen Wald und hilft so, neue Bäume wachsen zu lassen, was ihn zu einem unersetzlichen Gärtner seines Zuhauses macht.\n\nLeider wird sein Wald immer kleiner und zerstückelter, und es gibt nur noch sehr wenige seiner Artgenossen. Deshalb gilt Langarm heute als vom Aussterben bedroht, und es werden leider immer weniger.\n\nWir können Langarm und seiner Familie helfen, indem wir über diese wunderbaren Sänger des Waldes lernen und Projekte unterstützen, die ihre letzten Wälder schützen und wieder aufforsten. Gemeinsam können wir dafür sorgen, dass ihr hoffnungsvoller Gesang weiterhin durch die Berge von China und Viet Nam hallt.",
+      "en": "Longarm, the little Cao-vit Gibbon with his soft, black fur and distinctive white cheek, is roughly the size of a three-year-old child and lives high up in the canopy of the last mountain forests in China and Viet Nam.\n\nAs a member of the gibbon family, one of the rarest apes in the world, he swings skillfully from branch to branch with his long arms, feeding on sweet, ripe fruits, young leaves, and delicate blossoms. Through his wide-ranging travels in search of food, Longarm distributes seeds throughout the entire forest, helping new trees to grow, which makes him an irreplaceable gardener of his home.\n\nSadly, his forest is shrinking and becoming increasingly fragmented, and very few of his kind remain. For this reason, Longarm is today considered critically endangered, and their numbers are unfortunately continuing to decline.\n\nWe can help Longarm and his family by learning about these wonderful singers of the forest and by supporting projects that protect and reforest their last remaining woodlands. Together, we can ensure that their hopeful song continues to echo through the mountains of China and Viet Nam."
+    }
+  }
+}
