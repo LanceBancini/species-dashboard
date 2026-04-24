@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Species Dashboard | Powered by IUCN Red List API v4',
+  title: 'Species Dashboard | Built on IUCN Red List API v4',
   description: 'Visual overview of all 172,620 IUCN Red List species by threat category — Awareness Engine'
 };
 
