@@ -1,16 +1,19 @@
 {
-  "meta": {
+  "_meta": {
+    "purpose": "Public endpoint — example of information sharing",
+    "data_license": "IUCN Red List Terms of Use — non-commercial use only",
+    "code_license": "MIT",
     "generated": "2026-04-23T14:32:17.892Z",
-    "generated_by": "Awareness Engine v0.0.1",
     "template": "Kids/Youth",
     "template_version": "0.0.1",
     "generation_duration_ms": {
       "story_de": 62340
-    }
+    },
+    "generated_by": "Awareness Engine v0.0.1"
   },
   "data": {
     "iucn": {
-      "data_source": "IUCN 2026. The IUCN Red List of Threatened Species. Version 2025-2. <https://www.iucnredlist.org>",
+      "data_source": "IUCN 2025. IUCN Red List of Threatened Species. Version 2025-2 <www.iucnredlist.org>",
       "red_list_version": "2025-2",
       "accessed_on": "2026-04-22T11:58:29.321Z",
       "api": {
@@ -21,6 +24,7 @@
       "category_description": "Critically Endangered",
       "trend": "Decreasing",
       "species": {
+        "iucn_url": "https://www.iucnredlist.org/species/41642/17969578",
         "genus": "Nomascus",
         "epithet": "nasutus",
         "common_name": "Cao-vit Gibbon",
